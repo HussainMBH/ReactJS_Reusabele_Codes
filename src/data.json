@@ -1,0 +1,155 @@
+[
+    {
+      "id": 1,
+      "style": {
+        "width": "18rem"
+      },
+      "imgVariant": "top",
+      "imgSrc": "holder.js/100px180?text=Image cap",
+      "title": "Card Title 1",
+      "text": "Some quick example text to build on the card title and make up the bulk of the card's content 1.",
+      "listItems": [
+        "Cras justo odio 1",
+        "Dapibus ac facilisis in 1",
+        "Vestibulum at eros 1"
+      ],
+      "links": [
+        {"label": "Card Link 1", "url": "#"},
+        {"label": "Another Link 1", "url": "#"}
+      ]
+    },
+    {
+      "id": 2,
+      "style": {
+        "width": "18rem"
+      },
+      "imgVariant": "top",
+      "imgSrc": "holder.js/100px180?text=Image cap",
+      "title": "Card Title 2",
+      "text": "Some quick example text to build on the card title and make up the bulk of the card's content 2.",
+      "listItems": [
+        "Cras justo odio 2",
+        "Dapibus ac facilisis in 2",
+        "Vestibulum at eros 2"
+      ],
+      "links": [
+        {"label": "Card Link 2", "url": "#"},
+        {"label": "Another Link 2", "url": "#"}
+      ]
+    },
+    {
+      "id": 3,
+      "style": {
+        "width": "18rem"
+      },
+      "imgVariant": "top",
+      "imgSrc": "holder.js/100px180?text=Image cap",
+      "title": "Card Title 3",
+      "text": "Some quick example text to build on the card title and make up the bulk of the card's content 3.",
+      "listItems": [
+        "Cras justo odio 3",
+        "Dapibus ac facilisis in 3",
+        "Vestibulum at eros 3"
+      ],
+      "links": [
+        {"label": "Card Link 3", "url": "#"},
+        {"label": "Another Link 3", "url": "#"}
+      ]
+    },
+    {
+      "id": 4,
+      "style": {
+        "width": "18rem"
+      },
+      "imgVariant": "top",
+      "imgSrc": "holder.js/100px180?text=Image cap",
+      "title": "Card Title 4",
+      "text": "Some quick example text to build on the card title and make up the bulk of the card's content 4.",
+      "listItems": [
+        "Cras justo odio 4",
+        "Dapibus ac facilisis in 4",
+        "Vestibulum at eros 4"
+      ],
+      "links": [
+        {"label": "Card Link 4", "url": "#"},
+        {"label": "Another Link 4", "url": "#"}
+      ]
+    },
+    {
+      "id": 5,
+      "style": {
+        "width": "18rem"
+      },
+      "imgVariant": "top",
+      "imgSrc": "holder.js/100px180?text=Image cap",
+      "title": "Card Title 5",
+      "text": "Some quick example text to build on the card title and make up the bulk of the card's content 5.",
+      "listItems": [
+        "Cras justo odio 5",
+        "Dapibus ac facilisis in 5",
+        "Vestibulum at eros 5"
+      ],
+      "links": [
+        {"label": "Card Link 5", "url": "#"},
+        {"label": "Another Link 5", "url": "#"}
+      ]
+    },
+    {
+      "id": 6,
+      "style": {
+        "width": "18rem"
+      },
+      "imgVariant": "top",
+      "imgSrc": "holder.js/100px180?text=Image cap",
+      "title": "Card Title 6",
+      "text": "Some quick example text to build on the card title and make up the bulk of the card's content 6.",
+      "listItems": [
+        "Cras justo odio 6",
+        "Dapibus ac facilisis in 6",
+        "Vestibulum at eros 6"
+      ],
+      "links": [
+        {"label": "Card Link 6", "url": "#"},
+        {"label": "Another Link 6", "url": "#"}
+      ]
+    },
+    {
+      "id": 7,
+      "style": {
+        "width": "18rem"
+      },
+      "imgVariant": "top",
+      "imgSrc": "holder.js/100px180?text=Image cap",
+      "title": "Card Title 7",
+      "text": "Some quick example text to build on the card title and make up the bulk of the card's content 7.",
+      "listItems": [
+        "Cras justo odio 7",
+        "Dapibus ac facilisis in 7",
+        "Vestibulum at eros 7"
+      ],
+      "links": [
+        {"label": "Card Link 7", "url": "#"},
+        {"label": "Another Link 7", "url": "#"}
+      ]
+    },
+    {
+      "id": 8,
+      "style": {
+        "width": "18rem"
+      },
+      "imgVariant": "top",
+      "imgSrc": "holder.js/100px180?text=Image cap",
+      "title": "Card Title 8",
+      "text": "Some quick example text to build on the card title and make up the bulk of the card's content 8.",
+      "listItems": [
+        "Cras justo odio 8",
+        "Dapibus ac facilisis in 8",
+        "Vestibulum at eros 8"
+      ],
+      "links": [
+        {"label": "Card Link 8", "url": "#"},
+        {"label": "Another Link 8", "url": "#"}
+      ]
+    }
+  ]
+  
