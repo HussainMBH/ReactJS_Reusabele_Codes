@@ -1,12 +1,14 @@
 import './App.css';
-import Cartbutton from './components/Cartbutton';
+import UseStateFunction from './components/ReactHooks/UseStateFunction.jsx'; // Correct casing
+import Footer from './components/Footer.jsx';
 import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <Cartbutton/>
+      <UseStateFunction/> {/* Correct casing */}
+      <Footer/>
     </div>
   );
 }

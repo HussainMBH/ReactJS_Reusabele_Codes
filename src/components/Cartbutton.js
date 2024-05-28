@@ -1,91 +1,118 @@
-import React from 'react'
-import { Card, Button, Row, Col } from 'react-bootstrap'
+import React from "react";
+import { Button, Card, CardGroup } from "react-bootstrap";
 
 const Cartbutton = () => {
   return (
-    <div>
-      <h2>Vertical Cards</h2>
-      <Row>
-        <Col sm={4}>
-          <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card>
-        </Col>
-        
-        <Col sm={4}>
-          <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col sm={4}>
-          <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
+    <>
+      <CardGroup>
+        <Card border="primary" style={{ width: "18rem" }}>
+          <Card.Header>Header</Card.Header>
+          <Card.Body>
+            <Card.Title>Primary Card Title</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+            <Button variant="primary">Primary</Button>
+          </Card.Body>
+        </Card>
+        <br />
 
-      <h2>Horizontal Cards</h2>
-      <Row>
-        <Col>
-          <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
-            <Card.Body>
-              <Card.Title>Card Title</Card.Title>
-              <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of the card's content.
-              </Card.Text>
-              <Button variant="primary">Go somewhere</Button>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row>
-    </div>
-  )
-}
+        <Card border="secondary" style={{ width: "18rem" }}>
+          <Card.Header>Header</Card.Header>
+          <Card.Body>
+            <Card.Title>Secondary Card Title</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+            <Button variant="primary">Primary</Button>
+          </Card.Body>
+        </Card>
+        <br />
 
-export default Cartbutton
+        <Card border="success" style={{ width: "18rem" }}>
+          <Card.Header>Header</Card.Header>
+          <Card.Body>
+            <Card.Title>Success Card Title</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+            <Button variant="primary">Primary</Button>
+          </Card.Body>
+        </Card>
+        <br />
+
+        <Card border="danger" style={{ width: "18rem" }}>
+          <Card.Header>Header</Card.Header>
+          <Card.Body>
+            <Card.Title>Danger Card Title</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+            <Button variant="primary">Primary</Button>
+          </Card.Body>
+        </Card>
+        <br />
+      </CardGroup>
+      <br />
+      <CardGroup>
+        <Card border="warning" style={{ width: "18rem" }}>
+          <Card.Header>Header</Card.Header>
+          <Card.Body>
+            <Card.Title>Warning Card Title</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+            <Button variant="primary">Primary</Button>
+          </Card.Body>
+        </Card>
+        <br />
+
+        <Card border="info" style={{ width: "18rem" }}>
+          <Card.Header>Header</Card.Header>
+          <Card.Body>
+            <Card.Title>Info Card Title</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+            <Button variant="primary">Primary</Button>
+          </Card.Body>
+        </Card>
+        <br />
+
+        <Card border="dark" style={{ width: "18rem" }}>
+          <Card.Header>Header</Card.Header>
+          <Card.Body>
+            <Card.Title>Dark Card Title</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+            <Button variant="primary">Primary</Button>
+          </Card.Body>
+        </Card>
+        <br />
+
+        <Card border="primary" style={{ width: "18rem" }}>
+          <Card.Header>Header</Card.Header>
+          <Card.Body>
+            <Card.Title>Dark Card Title</Card.Title>
+            <Card.Text>
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </Card.Text>
+            <Button variant="primary">Primary</Button>
+          </Card.Body>
+        </Card>
+        <br />
+      </CardGroup>
+    </>
+  );
+};
+
+export default Cartbutton;
