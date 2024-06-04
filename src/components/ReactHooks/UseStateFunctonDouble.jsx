@@ -1,17 +1,20 @@
 import React, { useState } from 'react'
 import { Button } from 'react-bootstrap'
 
-function UseStateFunction (){
+
+const UseStateFunctonDouble = () => {
     const [count, setCount] = useState(4);
     const decrementCount = () =>{
-        setCount(count-1);
+        setCount(ps => ps -1);
+        setCount(ps => ps -1);
     }
     const incrementCount = () =>{
-        setCount(count + 1);
+        setCount(ps => ps +1);
+        setCount(ps => ps +1);
     }
   return (
     <div>
-        <h4>Increment and Decrement</h4>
+        <h4>Double Increment and Decrement</h4>
       <Button onClick={decrementCount}>-</Button>
       <span>{count}</span>
       <Button onClick={incrementCount}>+</Button>
@@ -19,4 +22,4 @@ function UseStateFunction (){
   )
 }
 
-export default UseStateFunction;
+export default UseStateFunctonDouble
