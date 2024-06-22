@@ -11,7 +11,7 @@ function UseStateFunction (){
     }
   return (
     <div>
-        <h4>Increment and Decrement</h4>
+        <h4>Increment & Decrement</h4>
       <Button onClick={decrementCount}>-</Button>
       <span>{count}</span>
       <Button onClick={incrementCount}>+</Button>
