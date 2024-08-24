@@ -9,7 +9,7 @@ function UseEffectFunction() {
   return (
     <>
     <div>
-      <button onClick={() => setResource('Posts')}>Posts</button>
+      <button onClick={() => setResource('Posts')}>Post</button>
       <button onClick={() => setResource('Users')}>Users</button>
       <button onClick={() => setResource('Comments')}>Comments</button>
     </div>
