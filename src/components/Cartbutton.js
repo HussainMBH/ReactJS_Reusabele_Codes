@@ -3,11 +3,11 @@ import { Button, Card, CardGroup } from "react-bootstrap";
 
 const Cartbutton = () => {
   return (
-    <>
-      <CardGroup>
+    <div className="d-flex justify-content-center align-items-center flex-wrap">
+      <CardGroup className="text-center">
         <Card border="primary" style={{ width: "18rem" }}>
-          <Card.Header>Header</Card.Header>
-          <Card.Body>
+          <Card.Header className="text-center">Header</Card.Header>
+          <Card.Body className="text-center">
             <Card.Title>Header Code</Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
@@ -32,9 +32,9 @@ const Cartbutton = () => {
         <br />
 
         <Card border="success" style={{ width: "18rem" }}>
-          <Card.Header>Header</Card.Header>
+          <Card.Header>useStae Hook</Card.Header>
           <Card.Body>
-            <Card.Title>Success Card Title</Card.Title>
+            <Card.Title>useStae Hook Code</Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
@@ -58,7 +58,7 @@ const Cartbutton = () => {
         <br />
       </CardGroup>
       <br />
-      <CardGroup>
+      <CardGroup className="text-center">
         <Card border="warning" style={{ width: "18rem" }}>
           <Card.Header>Header</Card.Header>
           <Card.Body>
@@ -111,7 +111,7 @@ const Cartbutton = () => {
         </Card>
         <br />
       </CardGroup>
-    </>
+    </div>
   );
 };
 
