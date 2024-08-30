@@ -13,7 +13,9 @@ const Cartbutton = () => {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Button href="/Headercode.js" variant="primary">Primary</Button>
+            <Button href="/Headercode.js" variant="primary">
+              Primary
+            </Button>
           </Card.Body>
         </Card>
         <br />
@@ -23,10 +25,13 @@ const Cartbutton = () => {
           <Card.Body>
             <Card.Title>useProps Code</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              React allows us to pass information to a Component using something
+              called props (which stands for properties). Props are objects
+              which can be used inside a component.
             </Card.Text>
-            <Button href="/useProps.jsx" variant="primary">Primary</Button>
+            <Button href="/useProps.jsx" variant="primary">
+              Primary
+            </Button>
           </Card.Body>
         </Card>
         <br />
