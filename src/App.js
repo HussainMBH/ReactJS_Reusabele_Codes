@@ -1,14 +1,11 @@
 import './App.css';
-// // import UseStateFunction from './components/ReactHooks/UseStateFunction.jsx'; // Correct casing
-// import Footer from './components/Footer.jsx';
-// import Header from './components/Header';
-// // import UseStateFunctonDouble from './components/ReactHooks/UseStateFunctonDouble.jsx';
-// //import UseEffectFunction from './components/ReactHooks/UseEffectFunction.jsx';
-// import Cartbutton from "./components/Cartbutton.js"
-//import UseProps from './components/buttonpages/UseProps.jsx';
-import Header from './components/Header.js'
-import Cartbutton from './components/Cartbutton'
-import Footer from './components/Footer.jsx'
+// import UseStateFunction from './components/ReactHooks/UseStateFunction.jsx'; // Correct casing
+import Footer from './components/Footer.jsx';
+import Header from './components/Header';
+// import UseStateFunctonDouble from './components/ReactHooks/UseStateFunctonDouble.jsx';
+// import UseEffectFunction from './components/ReactHooks/UseEffectFunction.jsx';
+import Cartbutton from "./components/Cartbutton.js";
+import UseStatetry from './components/interviewTasks/UseStatetry.jsx'; // Capitalized to fix the issue
 
 function App() {
   // const userData = {
@@ -28,9 +25,10 @@ function App() {
         mail={userData.mail} 
         {...userData}
       /> */}
-      <Header/>
-      <Cartbutton/>
-      <Footer/>
+      <Header />
+      <Cartbutton />
+      <UseStatetry /> {/* Corrected component name */}
+      <Footer />
     </div>
   );
 }
