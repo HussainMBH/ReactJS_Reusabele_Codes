@@ -6,6 +6,7 @@ import Header from './components/Header';
 // import UseEffectFunction from './components/ReactHooks/UseEffectFunction.jsx';
 import Cartbutton from "./components/Cartbutton.js";
 import UseStatetry from './components/interviewTasks/UseStatetry.jsx'; // Capitalized to fix the issue
+import Testtry from './components/interviewTasks/Testtry.jsx';
 
 function App() {
   // const userData = {
@@ -26,8 +27,9 @@ function App() {
         {...userData}
       /> */}
       <Header />
-      <Cartbutton />
-      <UseStatetry /> {/* Corrected component name */}
+    
+      <Testtry/>
+      
       <Footer />
     </div>
   );
