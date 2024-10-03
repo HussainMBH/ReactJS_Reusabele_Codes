@@ -10,6 +10,7 @@ import Testtry from './components/interviewTasks/Testtry.jsx';
 import UseProps from './components/PropsSet/UseProps.jsx';
 import UseStateFunction from './components/ReactHooks/UseStateFunction.jsx';
 import UseRefFunction from './components/ReactHooks/UseRefFunction.jsx';
+import UseMemo from './components/ReactHooks/UseMemo.jsx';
 
 function App() {
   const userData = {
@@ -27,9 +28,10 @@ function App() {
       <Cartbutton/>
       <Testtry/>
       {/* <UseProps name={userData.name} age={userData.age} phone={userData.phone} email={userData.email}/> */}
-      <UseProps {...userData}/> /*Spread Operator */
+      <UseProps {...userData}/> {/*Spread Operator */}
       <UseStateFunction/>
       <UseRefFunction/>
+      <UseMemo/>
       <Footer />
     </div>
   );
