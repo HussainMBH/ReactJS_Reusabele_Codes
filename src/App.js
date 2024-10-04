@@ -11,6 +11,9 @@ import UseProps from './components/PropsSet/UseProps.jsx';
 import UseStateFunction from './components/ReactHooks/UseStateFunction.jsx';
 import UseRefFunction from './components/ReactHooks/UseRefFunction.jsx';
 import UseMemo from './components/ReactHooks/UseMemo.jsx';
+import { useCallback, useState } from 'react';
+import UseCallback from './components/ReactHooks/UseCallback.jsx';
+import { Button } from 'react-bootstrap';
 
 function App() {
   const userData = {
@@ -20,6 +23,13 @@ function App() {
     email: "mbh@gmail.com",
   };
 
+  const [count, setCount] = useState(0);
+  const [flag, setFlag] = useState(true);
+
+  const increment = useCallback(() =>{
+    console.log(flag, 'flag value')
+    setCount(count => count+1);
+  }, [flag]);
   
 
   return (
@@ -29,6 +39,8 @@ function App() {
       <Testtry/>
       {/* <UseProps name={userData.name} age={userData.age} phone={userData.phone} email={userData.email}/> */}
       <UseProps {...userData}/> {/*Spread Operator */}
+      <UseCallback count={count} increment={increment}/>
+      <Button onClick={() => setFlag((flag) => !flag)}>Recreate increment function</Button>
       <UseStateFunction/>
       <UseRefFunction/>
       <UseMemo/>
