@@ -14,12 +14,14 @@
 //import UseCallback from './components/ReactHooks/UseCallback.jsx';
 //import { Button } from 'react-bootstrap';
 //import Day01 from './Daytry/Day01.jsx';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./components/pages/Home";
-import User from "./components/pages/User";
-import About from "./components/pages/About";
-import Contact from "./components/pages/Contact";
-import Header from "./components/Header";
+// import { Routes, Route } from "react-router-dom";
+// import Home from "./components/pages/Home";
+// import User from "./components/pages/User";
+// import About from "./components/pages/About";
+// import Contact from "./components/pages/Contact";
+// import Header from "./components/Header";
+// import Error from "./components/pages/Error";
+import Dashboard from "./components/pages/Dashboard";
 
 function App() {
 //   const userData = {
@@ -58,15 +60,17 @@ function App() {
       {/* <Day01 name={userData.name} age={userData.age} mail={userData.mail}/>
       <Footer /> */}
 
-      <Header/>
+      {/* <Header/>
         
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/users/:username" element={<User/>}/>
+          <Route path="/user/:username" element={<User/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/contact" element={<Contact/>}/>
+          <Route path="*" element={<Error/>}/>
         </Routes>
-     
+      */}
+      <Dashboard/>
     </div>
     
   );
