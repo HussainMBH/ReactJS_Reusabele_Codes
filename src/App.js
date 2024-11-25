@@ -21,15 +21,16 @@
 // import Contact from "./components/pages/Contact";
 // import Header from "./components/Header";
 // import Error from "./components/pages/Error";
-import Dashboard from "./components/pages/Dashboard";
+//import Dashboard from "./components/pages/Dashboard";
+import Day03 from "./Daytry/Day03";
+import Day04 from "./Daytry/Day04";
 
 function App() {
-//   const userData = {
-//     name: "Bahir",
-//     age: 25,
-//     phone: "0768816878",
-//     email: "mbh@gmail.com",
-//   };
+  const userData = {
+    name: "Bahir",
+    age: 24,
+    job: "SE"
+  }
 
   //const [count, setCount] = useState(0);
   //const [flag, setFlag] = useState(true);
@@ -70,7 +71,9 @@ function App() {
           <Route path="*" element={<Error/>}/>
         </Routes>
       */}
-      <Dashboard/>
+      {/* <Dashboard/> */}
+      <Day03/>
+      <Day04 name={userData.name} age={userData.age} job={userData.job}/>
     </div>
     
   );
