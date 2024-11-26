@@ -5,7 +5,7 @@ function Day04(props) {
     const [age, setAge] = useState(24);
 
     const chnagename = () =>{
-        setName("Hussain");
+        setName("Mohamed");
     }
 
     const changeage = () => {
